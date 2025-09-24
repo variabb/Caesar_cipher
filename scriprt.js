@@ -1,4 +1,4 @@
-const key = 7;
+const key = 1;
 
 const primaryWordElement = document.querySelector(".primaryWord");
 const encryptedElement = document.querySelector(".encrypterElement");
