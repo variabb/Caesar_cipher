@@ -33,7 +33,7 @@ wordToDecript.addEventListener("input", (event) => {
     const code = letter.charCodeAt(0);
     let charCode = code - key;
 
-    if (charCode < 96) {
+    if (charCode <= 96) {
       charCode = 122 - (96 - charCode);
     }
 
